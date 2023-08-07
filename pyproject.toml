@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "headhunter-sql"
+version = "0.1.0"
+description = ""
+authors = ["sergei valdemarov <valdemarovsergei@gmail.com>"]
+readme = "README.md"
+packages = [{include = "headhunter_sql"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
